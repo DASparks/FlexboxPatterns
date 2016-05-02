@@ -1,0 +1,59 @@
+html, body, footer, div{
+    padding:0;
+    margin:0;
+}
+
+html{
+    width:100%;
+}
+
+footer{
+    display: flex;
+    align-items:center;
+    width:600px;
+    height:60px;
+    background-color:white;
+    font-family:arial, sans-serif;
+    font-size:16px;
+    color:deepskyblue;
+    border-top:1px solid lightgrey;
+    margin:100px auto;
+    justify-content:space-between;
+}
+
+.timer{
+    /*animation:timer 1s infinite steps(16, end);*/
+    animation-name:timer;
+    animation-duration:1s;
+    animation-iteration-count:infinite;
+    animation-timing-function: steps(16, end);
+}
+
+@keyframes timer{
+    0%      {transform:rotate(0deg);}
+    100%    {transform:rotate(360deg);}
+}
+
+.saving{
+    fill:#86969C;
+    color:#86969C;}
+
+.item{
+    padding:10px;
+    margin:0 10px;
+}
+
+.right{
+    display:flex;
+    align-items:center;
+}
+.click{
+    cursor:pointer;
+}
+
+.click:hover{
+    color:white;
+    padding:10px;
+    background-color:deepskyblue;
+    border-radius:4px;
+}

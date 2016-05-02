@@ -1,0 +1,54 @@
+html, body, div, h1, p{
+    padding:0;
+    margin:0;
+}
+
+html{
+    width:100%;
+}
+
+.prompt{
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    width:500px;
+    height:400px;
+    background-color:white;
+    font-family:arial, sans-serif;
+    font-size:16px;
+    color:#86969C;
+    border:1px solid lightgrey;
+    border-radius:8px;
+    margin:100px auto;
+    justify-content:center;
+}
+
+.icon{
+    height:60px;
+    width:60px;
+    fill:#BCD2DA;
+}
+
+h1{
+    font-family:arial, sans-serif;
+}
+.tour{
+    display:flex;
+    width:100px;
+    height:30px;
+    font-size:.75rem;
+    color:white;
+    background-color:#4EBBE4;
+    border:1px solid #16A2D7;
+    border-radius:4px;
+    align-items:center;
+    justify-content:center;
+}
+
+.tour:hover{
+    cursor:pointer;
+}
+
+.icon, .tour, h1, p {
+    margin: 7px auto;
+}

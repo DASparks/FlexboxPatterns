@@ -1,0 +1,50 @@
+html, body, header, div{
+    padding:0;
+    margin:0;
+}
+
+html{
+    width:100%;
+}
+
+header{
+    display:flex;
+    align-items:center;
+    width:600px;
+    height:60px;
+    background-color:slategrey;
+    font-family:arial, sans-serif;
+    font-size:16px;
+    color:white;
+    margin:100px auto;
+    justify-content:space-between;
+}
+
+#logo{
+    height:20px;
+    width:20px;
+    fill:white;
+}
+
+#logo:hover{
+    fill:red;
+}
+
+.item{
+    padding:10px;
+    margin:0 10px;
+}
+
+.left{
+    display:flex;
+    align-items:center;
+}
+.click, #logo{
+    cursor:pointer;
+}
+
+.click:hover{
+    padding:10px;
+    background-color:darkslategrey;
+    border-radius:4px;
+}
